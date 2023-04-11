@@ -15,6 +15,14 @@
 		A4E3C6F129E32A2900AFA40A /* DailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C6F029E32A2900AFA40A /* DailyUITests.swift */; };
 		A4E3C6F329E32A2900AFA40A /* DailyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C6F229E32A2900AFA40A /* DailyUITestsLaunchTests.swift */; };
 		A4E3C70029E32EEA00AFA40A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E3C6FF29E32EEA00AFA40A /* Launch Screen.storyboard */; };
+		A4E3C71129E47D8600AFA40A /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C71029E47D8600AFA40A /* NoteView.swift */; };
+		A4E3C71329E47DF800AFA40A /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C71229E47DF800AFA40A /* TopBar.swift */; };
+		A4E3C71929E48B4100AFA40A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C71829E48B4100AFA40A /* HomeView.swift */; };
+		A4E3C71B29E48B7D00AFA40A /* WeightTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C71A29E48B7D00AFA40A /* WeightTrackerView.swift */; };
+		A4E3C71D29E48BD700AFA40A /* AccountBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C71C29E48BD700AFA40A /* AccountBookView.swift */; };
+		A4E3C71F29E48C1600AFA40A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C71E29E48C1600AFA40A /* SettingsView.swift */; };
+		A4E3C72129E49DAF00AFA40A /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C72029E49DAF00AFA40A /* BottomBar.swift */; };
+		A4E3C72629E5B14100AFA40A /* BottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3C72529E5B14100AFA40A /* BottomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,14 @@
 		A4E3C6F029E32A2900AFA40A /* DailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyUITests.swift; sourceTree = "<group>"; };
 		A4E3C6F229E32A2900AFA40A /* DailyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A4E3C6FF29E32EEA00AFA40A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A4E3C71029E47D8600AFA40A /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		A4E3C71229E47DF800AFA40A /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		A4E3C71829E48B4100AFA40A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4E3C71A29E48B7D00AFA40A /* WeightTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackerView.swift; sourceTree = "<group>"; };
+		A4E3C71C29E48BD700AFA40A /* AccountBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBookView.swift; sourceTree = "<group>"; };
+		A4E3C71E29E48C1600AFA40A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A4E3C72029E49DAF00AFA40A /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		A4E3C72529E5B14100AFA40A /* BottomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,11 @@
 			children = (
 				A4E3C6D529E32A2700AFA40A /* DailyApp.swift */,
 				A4E3C6D729E32A2700AFA40A /* ContentView.swift */,
+				A4E3C72029E49DAF00AFA40A /* BottomBar.swift */,
+				A4E3C72529E5B14100AFA40A /* BottomButton.swift */,
+				A4E3C71229E47DF800AFA40A /* TopBar.swift */,
+				A4E3C72329E4A03100AFA40A /* TopButtonViews */,
+				A4E3C72429E4A04D00AFA40A /* BarViews */,
 				A4E3C6D929E32A2800AFA40A /* Assets.xcassets */,
 				A4E3C6FF29E32EEA00AFA40A /* Launch Screen.storyboard */,
 				A4E3C6DB29E32A2800AFA40A /* Preview Content */,
@@ -128,6 +149,25 @@
 				A4E3C6F229E32A2900AFA40A /* DailyUITestsLaunchTests.swift */,
 			);
 			path = DailyUITests;
+			sourceTree = "<group>";
+		};
+		A4E3C72329E4A03100AFA40A /* TopButtonViews */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3C71029E47D8600AFA40A /* NoteView.swift */,
+				A4E3C71E29E48C1600AFA40A /* SettingsView.swift */,
+			);
+			path = TopButtonViews;
+			sourceTree = "<group>";
+		};
+		A4E3C72429E4A04D00AFA40A /* BarViews */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3C71C29E48BD700AFA40A /* AccountBookView.swift */,
+				A4E3C71829E48B4100AFA40A /* HomeView.swift */,
+				A4E3C71A29E48B7D00AFA40A /* WeightTrackerView.swift */,
+			);
+			path = BarViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +302,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E3C6D829E32A2700AFA40A /* ContentView.swift in Sources */,
+				A4E3C71B29E48B7D00AFA40A /* WeightTrackerView.swift in Sources */,
+				A4E3C72129E49DAF00AFA40A /* BottomBar.swift in Sources */,
+				A4E3C71929E48B4100AFA40A /* HomeView.swift in Sources */,
+				A4E3C71F29E48C1600AFA40A /* SettingsView.swift in Sources */,
 				A4E3C6D629E32A2700AFA40A /* DailyApp.swift in Sources */,
+				A4E3C72629E5B14100AFA40A /* BottomButton.swift in Sources */,
+				A4E3C71129E47D8600AFA40A /* NoteView.swift in Sources */,
+				A4E3C71D29E48BD700AFA40A /* AccountBookView.swift in Sources */,
+				A4E3C71329E47DF800AFA40A /* TopBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
